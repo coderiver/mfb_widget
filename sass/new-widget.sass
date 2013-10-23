@@ -1,0 +1,98 @@
+@import lib/base
+.new-widget
+    padding: 6px 7px 
+    width: 650px
+    +border-box
+    background: url(../img/widget-bg.jpg) 0 0 no-repeat
+    +clr
+    .ui-combobox
+        width: 194px
+        vertical-align: middle
+        background: url(../img/widget-input.png) 100% 0 no-repeat
+        +box-shadow(0 0px 1px #DEDAD4 inset)
+        input
+            &.ui-combobox-input
+                height: 28px
+                width: 100%
+                +border-box
+                padding: 0 38px 0 8px !important
+    .row
+        margin-bottom: 20px
+        label
+            width: 37px
+            text-align: left
+            margin-right: 7px
+            vertical-align: middle
+            color: #000 
+            //color: #be0404
+            font: bold 14px Verdana,sans-serif
+        .r-coll
+            input[type="text"]
+                vertical-align: middle
+                width: 99px
+                height: 28px
+                background: #fff 
+                +box-shadow(0 0px 1px #DEDAD4 inset)
+                background: url(../img/widget-date.png) 100% 0 no-repeat
+            input[type="checkbox"]
+                margin-right: 8px
+    .bottom-row
+        margin-top: 4px
+    .quantity
+        padding-bottom: 0
+        border: 0
+        width: 69px
+        margin: 0 0 0 16px
+        +border-box
+        &:first-child
+            margin-left: 0
+        .quantity-input
+            width: 100%
+            +border-box
+            padding: 0 38px 0 12px 
+            text-align: left
+            background: url(../img/widget-input.png) 100% 0 no-repeat
+    .quantity-title
+        text-align: left
+        text-transform: none
+        font: normal 12px Verdana,sans-serif
+        color: #000 
+        span
+            padding: 0
+    .widget-btn
+        float: right
+        margin-top: 9px
+        width: 171px
+        height: 30px
+        border: 0
+        +border-box
+        text-align: left
+        padding-left: 9px
+        font: bold 12px Verdana,sans-serif
+        background: url(../img/widget-btn.png) 100% 0 no-repeat
+        &:focus,&:active
+            outline: none 
+
+
+
+
+.new-widget__in
+    float: right
+    padding: 15px 12px 23px 10px 
+    width: 474px
+    background: #fff 
+    +border-box
+.new-widget__left
+    float: left
+    width: 240px
+.new-widget__right
+    float: right
+    width: 195px
+    .row
+        label
+            width: auto
+            margin-right: 14px
+            font: normal 12px Verdana,sans-serif
+
+.ui-autocomplete
+    left: 157px !important
