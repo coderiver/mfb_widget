@@ -1,10 +1,20 @@
 @import lib/base
-.new-widget
-    padding: 6px 7px 
+.new-widget-wrap
+    margin-top: 45px
     width: 650px
+.new-widget-logo
+    float: right
+    margin-bottom: 5px
+    width: 118px
+    height: 29px
+    background: url(../img/widget-logo.png) 0 0 no-repeat 
+.new-widget
+    width: 100%
+    padding: 6px 7px 
     +border-box
     background: url(../img/widget-bg.jpg) 0 0 no-repeat
     +clr
+    clear: both
     .ui-combobox
         width: 194px
         vertical-align: middle
@@ -104,4 +114,13 @@
 
 #ui-id-1,
 #ui-id-2
-    left: 157px !important
+    left: 221px !important
+    width: 196px !important
+
+.ui-menu
+    .ui-menu-item
+        .ui-corner-all
+            border-bottom: 0
+            &:hover
+                background: #ccc !important 
+                border-bottom: 0
